@@ -15,6 +15,9 @@ public class Task03 {
      */
 
     public static void main(String[] args) {
-        // Напишите здесь ваш код
+        int god=2019;
+        int dgod=98;
+        int ogod=god-dgod;
+        System.out.println("Год основания: " + ogod) ;
     }
 }

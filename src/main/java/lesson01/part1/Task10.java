@@ -15,7 +15,12 @@ public class Task10 {
      */
 
     public static void main(String[] args) {
+        int i;
         int secondsAfter15 = 0;
+        int minutsafter15=30;
+        for(i=0;i<minutsafter15;i++){
+            secondsAfter15=secondsAfter15+60;
+        }
         System.out.println(secondsAfter15);
     }
 }
